@@ -1,0 +1,17 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  package_type: MyString
+  pick_up_location: MyString
+  drop_off_location: MyString
+  date: MyString
+  receiver_name: MyString
+  number_of_kgs: MyString
+
+two:
+  package_type: MyString
+  pick_up_location: MyString
+  drop_off_location: MyString
+  date: MyString
+  receiver_name: MyString
+  number_of_kgs: MyString
