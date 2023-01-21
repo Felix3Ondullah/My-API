@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
-    resources :admins only: [:index, :create, :post, :update, :destroy, :show]
-    #  resources :users
+    resources :admins, only: [:index, :create, :post, :update, :destroy, :show]
+     resources :users
   
     get '/signup', to: 'users#new'
     post '/signup', to: 'users#create'
